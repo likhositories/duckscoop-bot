@@ -1,12 +1,24 @@
-> [<img src="https://img.shields.io/badge/Telegram-%40Me-orange">](https://t.me/roddyfred)
+# DucksBot 🦆
 
-![img1](./.github/image/hero.png)
+[![Telegram](https://img.shields.io/badge/Telegram-%40likhondotxyz-blue?style=for-the-badge&logo=telegram)](https://t.me/likhondotxyz)
+[![GitHub Stars](https://img.shields.io/github/stars/likhositories/duckscoop-bot?style=for-the-badge)](https://github.com/likhositories/duckscoop-bot/stargazers)
+[![License](https://img.shields.io/github/license/likhositories/duckscoop-bot?style=for-the-badge)](https://github.com/likhositories/duckscoop-bot/blob/main/LICENSE)
 
-# Use Node.Js 18 or greater
+![DucksBot Hero Image](./.github/image/hero.png)
 
-## Functionality
+> **Note:** Use Node.js 18 or greater
 
-| Functional                                                    | Supported |
+## 🚀 Quick Start
+
+<p align="center">
+  <a href="https://t.me/duckscoop_bot/app?startapp=WGBHHpDlNK">
+    <img src="https://img.shields.io/badge/Join%20Airdrop-Duckscoop%20Bot-brightgreen?style=for-the-badge&logo=telegram" alt="Join Airdrop">
+  </a>
+</p>
+
+## ✨ Functionality
+
+| Feature                                                       | Supported |
 | ------------------------------------------------------------- | :-------: |
 | Claiming daily checkin                                        |    ✅     |
 | Completing missions                                           |    ✅     |
@@ -15,55 +27,102 @@
 | Auto-purchase of items if you have coins (multitap, attempts) |    ✅     |
 | Random sleep time between clicks                              |    ✅     |
 
-## [Settings](https://github.com/FreddyWhest/DucksBot/blob/main/.env-example)
+## ⚙️ Settings
 
-| Settings                   | Description                                                               |
+| Setting                    | Description                                                               |
 | -------------------------- | ------------------------------------------------------------------------- |
 | **API_ID / API_HASH**      | Platform data from which to launch a Telegram session (stock - Android)   |
 | **AUTO_COMPLETE_MISSIONS** | Whether the bot should complete the missions (True / False)               |
 | **AUTO_CLAIM_CHECKIN**     | Whether the bot should claim the daily checkin (True / False)             |
 | **USE_PROXY_FROM_FILE**    | Whether to use proxy from the `bot/config/proxies.js` file (True / False) |
 
-## Installation
+## 🛠 Installation
 
-You can download [**Repository**](https://github.com/FreddyWhest/DucksBot) by cloning it to your system and installing the necessary dependencies:
+1. Clone the repository:
+   ```shell
+   git clone https://github.com/likhositories/duckscoop-bot.git
+   cd duckscoop-bot
+   ```
+
+2. Install dependencies:
+   
+   <details>
+   <summary>Linux and macOS</summary>
+
+   ```shell
+   chmod +x check_node.sh
+   ./check_node.sh
+   ```
+   OR
+   ```shell
+   npm install
+   cp .env-example .env
+   nano .env  # Specify your API_ID and API_HASH, the rest is taken by default
+   ```
+   </details>
+
+   <details>
+   <summary>Windows</summary>
+
+   - Double click on `INSTALL.bat` in the duckscoop-bot directory to install the dependencies
+   - Double click on `START.bat` in the duckscoop-bot directory to start the bot
+   
+   OR
+   ```shell
+   npm install
+   copy .env-example .env
+   # Edit .env file and specify your API_ID and API_HASH
+   ```
+   </details>
+
+3. Run the bot:
+   ```shell
+   node index.js
+   ```
+
+### Quick Launch Arguments
+
+You can use arguments for quick launch:
 
 ```shell
-~ >>> git clone https://github.com/FreddyWhest/DucksBot.git
-~ >>> cd DucksBot
-
-#Linux and MocOS
-~/DucksBot >>> chmod +x check_node.sh
-~/DucksBot >>> ./check_node.sh
-
-OR
-
-~/DucksBot >>> npm install
-~/DucksBot >>> cp .env-example .env
-~/DucksBot >>> nano .env # Here you must specify your API_ID and API_HASH , the rest is taken by default
-~/DucksBot >>> node index.js
-
-#Windows
-1. Double click on INSTALL.bat in DucksBot directory to install the dependencies
-2. Double click on START.bat in DucksBot directory to start the bot
-
-OR
-
-~/DucksBot >>> npm install
-~/DucksBot >>> cp .env-example .env
-~/DucksBot >>> # Specify your API_ID and API_HASH, the rest is taken by default
-~/DucksBot >>> node index.js
+node index.js --action=1  # Create session
+node index.js --action=2  # Run clicker
 ```
 
-Also for quick launch you can use arguments, for example:
+## 📄 License
 
-```shell
-~/DucksBot >>> node index.js --action=1
+<p align="center">
+  <a href="https://github.com/likhositories/duckscoop-bot/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/likhositories/duckscoop-bot?style=for-the-badge" alt="License">
+  </a>
+</p>
 
-OR
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-~/DucksBot >>> node index.js --action=2
+## 🤝 Contributing
 
-#1 - Create session
-#2 - Run clicker
-```
+<p align="center">
+  <a href="https://github.com/likhositories/duckscoop-bot/issues">
+    <img src="https://img.shields.io/badge/Contribute-Open%20Issues-orange?style=for-the-badge&logo=github" alt="Contribute">
+  </a>
+</p>
+
+Contributions, issues, and feature requests are welcome! Feel free to check our [issues page](https://github.com/likhositories/duckscoop-bot/issues).
+
+## 📬 Contact
+
+<p align="center">
+  <a href="https://t.me/likhondotxyz">
+    <img src="https://img.shields.io/badge/Telegram-Contact%20Me-blue?style=for-the-badge&logo=telegram" alt="Contact on Telegram">
+  </a>
+</p>
+
+For support or queries, reach out on Telegram: [@likhondotxyz](https://t.me/likhondotxyz)
+
+---
+
+<p align="center">
+  <a href="https://github.com/likhositories/duckscoop-bot">
+    <img src="https://img.shields.io/badge/Give%20this%20repo%20a%20star%20%E2%AD%90-Thank%20You!-yellow?style=for-the-badge" alt="Give this repo a star">
+  </a>
+</p>
